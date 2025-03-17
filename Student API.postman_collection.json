@@ -46,7 +46,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": ""
+							"value": "10"
 						}
 					]
 				}
@@ -63,7 +63,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"Student Name\",\r\n    \"midterm_score\": 75,\r\n    \"final_score\": 85\r\n}\r\n",
+					"raw": "{\r\n    \"name\": \"Lore\",\r\n    \"midterm_score\": 75,\r\n    \"final_score\": 80\r\n}\r\n",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -92,7 +92,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"id\": 1,\r\n    \"name\": \"John Doe Updated\",\r\n    \"midterm_score\": 80,\r\n    \"final_score\": 90\r\n}\r\n",
+					"raw": "{\r\n    \"id\": 10,\r\n    \"midterm_score\": 100,\r\n    \"final_score\": 50\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -100,19 +100,12 @@
 					}
 				},
 				"url": {
-					"raw": "{{base_url}}/student/:id",
+					"raw": "{{base_url}}/student",
 					"host": [
 						"{{base_url}}"
 					],
 					"path": [
-						"student",
-						":id"
-					],
-					"variable": [
-						{
-							"key": "id",
-							"value": ""
-						}
+						"student"
 					]
 				}
 			},
@@ -138,7 +131,7 @@
 					"variable": [
 						{
 							"key": "id",
-							"value": ""
+							"value": "8"
 						}
 					]
 				}
